@@ -3,7 +3,7 @@ const url = "https://exercisedb.p.rapidapi.com/exercises/";
 const options = {
 	method: "GET",
 	headers: {
-		"X-RapidAPI-Key": "f4ed946d77mshd5f0c4382bf79a6p12940djsn3b386aa0f7de",
+		"X-RapidAPI-Key": process.env.NEXT_PUBLIC_EXERCISE_DB_KEY,
 		"X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
 	},
 };
